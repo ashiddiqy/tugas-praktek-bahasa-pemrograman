@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main (){
+	int nilai ;
+	
+	do{
+			cout << endl << "-+-+-+-+-+input nilai > 10 untuk berhenti +-+-+-+-+-" << endl;
+			cout << "input nilai >> ";
+			cin >> nilai ;
+	} while (nilai <= 10);
+}
